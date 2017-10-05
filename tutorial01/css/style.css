@@ -1,0 +1,14 @@
+h1{
+	color: green;
+}
+p{
+	font-family: Arial;
+	color: red;
+	font-size: 32px;
+}
+a{
+	color: orange;
+}
+p:first-letter{
+	color: blue;
+}
