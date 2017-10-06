@@ -1,0 +1,23 @@
+p.tuna{
+	color: blue;
+}
+
+p[name]{
+	color: yellow;
+}
+
+p[name="fish"]{
+	color: red;
+}
+
+p[name^="bacon"]{
+	color: purple;
+}
+
+p[name$="bacon"]{
+	color: pink;
+}
+
+p[name*="bacon"]{
+	color: green;
+}
