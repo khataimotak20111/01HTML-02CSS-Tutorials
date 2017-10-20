@@ -1,0 +1,23 @@
+p.tuna{
+	color: blue;
+}
+
+p[name]{
+	color: yellow;
+}
+
+p[name="fish"]{
+	color: red;
+}
+/*beginning with doesnt matter what it ends in*/
+p[name^="bacon"]{
+	color: purple;
+}
+/*ends with*/
+p[name$="bacon"]{
+	color: pink;
+}
+/*contains*/
+p[name*="bacon"]{
+	color: green;
+}
