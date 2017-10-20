@@ -1,0 +1,16 @@
+/* Child Slector
+body > div > p {
+	color: green;
+}
+*/
+
+/*Effect the 2nd element when it immediately follows the first
+p.taimoor + p {
+	color: blue;
+}
+*/
+
+/*Effect the 2nd element when it does not immediately follows the first*/
+p.taimoor ~ p {
+	color: red;
+}
