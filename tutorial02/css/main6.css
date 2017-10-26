@@ -54,7 +54,7 @@ body{
 #side_news{
 	float: left;
 	width: 220px;
-	margin: 20px 0px;
+	margin: 28px 0px;
 	padding: 30px;
 	background-color: #66cccc;
 }
@@ -64,4 +64,15 @@ body{
 	text-align: center;
 	padding: 20px;
 	border-top:2px solid #000000;
+}
+
+article{
+	background-color: #FFFBCC;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article > footer {
+	text-align: right;
 }
