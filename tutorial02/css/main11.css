@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+}
+
+#box{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 10px solid blue;
+	background-color: yellow;
+	-webkit-transition: -webkit-transform 5s;
+}
+
+#box:hover{
+	-webkit-transform: rotate(45deg);
+	background-color: red;
+}
+
+#text{
+	font: bold 30px Century Gothic;
+}

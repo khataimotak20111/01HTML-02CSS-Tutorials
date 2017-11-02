@@ -1,7 +1,9 @@
 *{
-	color: blue;
+    color: blue;
 }
 
 :not(.taimoor){
-	color: red;
+    color: red;
 }
+
+/***/

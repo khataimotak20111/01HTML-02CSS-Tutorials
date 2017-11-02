@@ -2,16 +2,12 @@
 p:nth-child(3){
 	color: green;
 }
-
-
 p:nth-child(odd){
 	color: green;
 }
-
 p:nth-child(even){
 	color: red;
 }
-
 */
 
 p:nth-child(4n+1){
